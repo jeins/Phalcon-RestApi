@@ -19,15 +19,7 @@ class Products extends Model {
 	public $modified_at;
 
 	public function initialize() {
-		$this->hashMany(
-			'id',
-			'Resapi\Models\Purchases',
-			'products_id',
-			[
-				'alias'	=> 'sold',
-				'reusable' => true
-			]
-		);
+		
 	}
 
 	public function beforeCreate() {

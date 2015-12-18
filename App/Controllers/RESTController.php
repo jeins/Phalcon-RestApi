@@ -1,7 +1,7 @@
 <?php
 namespace Resapi\Controllers;
 
-use \PhalconRest\Exceptions\HTTPException;
+use Resapi\Common\Exception\HTTPException;
 
 /**
  * Base RESTful Controller.

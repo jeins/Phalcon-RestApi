@@ -2,10 +2,13 @@
 
 namespace Resapi\Controllers;
 
+use Resapi\Models\Products;
+
 class ProductsController extends RESTController
 {
 	public function get()
 	{
-		echo "OK";die();
+		$data = Products::find()->toArray();
+		return $this->respond($data);
 	}
 }

@@ -14,3 +14,4 @@ return call_user_func(function(){
 	$productsCollection->get('/', 'get');
 	return $productsCollection;
 });
+

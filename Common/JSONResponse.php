@@ -1,6 +1,6 @@
 <?php
 
-namespace Resapi\Common\Response;
+namespace Resapi\Common;
 
 class JSONResponse extends Response{
 

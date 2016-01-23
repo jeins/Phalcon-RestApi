@@ -1,9 +1,8 @@
 <?php
 
-namespace Resapi\Common\Exception;
+namespace Resapi\Common;
 
 use \Phalcon\DI;
-use \Resapi\Common\Response\JSONResponse;
 
 class HTTPException extends \Exception {
 

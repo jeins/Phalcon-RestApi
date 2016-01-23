@@ -1,6 +1,6 @@
 <?php
 
-namespace Resapi\Common\Response;
+namespace Resapi\Common;
 
 use Phalcon\DI\Injectable;
 
